@@ -2,9 +2,9 @@
 
 #### A simple Program to warp text in circular path
 
-## GIF
+## Output
 
-<img src="https://github.com/prasanna892/PyQt5_circular_text_example/blob/main/analog_clock.gif" />
+<img src="https://github.com/prasanna892/PyQt5_circular_text_example/blob/main/output.jpeg" />
 
 ## Contact 
 
