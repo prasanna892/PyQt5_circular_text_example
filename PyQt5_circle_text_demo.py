@@ -69,7 +69,9 @@ class CircularText(QWidget):
         ang.append(painter_path.angleAtPercent(0.999999))
 
         # rendering text char one by one in circular path
-        set_char_pos = txt_position
+        pts = pts[txt_position:] + pts[:txt_position]
+        ang = ang[txt_position:] + ang[:txt_position]
+        set_char_pos = 0
         for i in range(len(txt)):
             text_rect = fm.boundingRect(txt[i])  # getting char bounding rectangle
             if txt[i] == ' ': # for space there is no bounding rect 
